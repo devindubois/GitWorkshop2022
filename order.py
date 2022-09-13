@@ -10,3 +10,7 @@ class Order:
         print(*self.items, sep = ', ')
 
     # implement methods for menu items
+    def add_cookie()
+        print('cookie hass been added')
+        total_cost += 1.50
+        self.items += ["cookie"]
